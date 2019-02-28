@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+ <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+<servlet>
+	<servlet-name>Policy1</servlet-name>
+	<servlet-class>controller.PolicyCreation</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Policy1</servlet-name>
+	<url-pattern>/pc1</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>Accno</servlet-name>
+	<servlet-class>controller.Account</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Accno</servlet-name>
+	<url-pattern>/Account</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>Policy2</servlet-name>
+	<servlet-class>controller.PolicyCreation2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Policy2</servlet-name>
+	<url-pattern>/pc2</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>Policy3</servlet-name>
+	<servlet-class>controller.PolicyCreation3</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Policy3</servlet-name>
+	<url-pattern>/pc3</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>Policy4</servlet-name>
+	<servlet-class>controller.PolicyCreation4</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Policy4</servlet-name>
+	<url-pattern>/pc4</url-pattern>
+</servlet-mapping>
+ <servlet>
+    <servlet-name>AccountServlet</servlet-name>
+    <servlet-class>controller.AccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet</servlet-name>
+    <url-pattern>/AccountAction</url-pattern>
+  </servlet-mapping>
+  
+  
+      <servlet>
+    <servlet-name>AccountServlet1</servlet-name>
+    <servlet-class>controller.PolicyController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet1</servlet-name>
+    <url-pattern>/business</url-pattern>
+  </servlet-mapping> 
+  
+ 
+  
+     <servlet>
+    <servlet-name>AccountServlet5</servlet-name>
+    <servlet-class>controller.MainController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet5</servlet-name>
+    <url-pattern>/some</url-pattern>
+  </servlet-mapping> 
+  
+  
+  <servlet>
+    <servlet-name>AccountServlet8</servlet-name>
+    <servlet-class>controller.ProfileController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet8</servlet-name>
+    <url-pattern>/profile</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>AccountServlet1</servlet-name>
+    <servlet-class>controller.PolicyController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet1</servlet-name>
+    <url-pattern>/business</url-pattern>
+  </servlet-mapping> 
+  
+  
+    <servlet>
+    <servlet-name>viewServlet1</servlet-name>
+    <servlet-class>controller.Fetch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>viewServlet1</servlet-name>
+    <url-pattern>/Fetch</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
