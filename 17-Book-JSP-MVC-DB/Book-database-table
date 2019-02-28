@@ -1,0 +1,13 @@
+
+Oracle :
+
+sql> create table book(bookid int,title varchar2(20),price float,grade varchar2(20));
+
+
+sql> insert into book values(100,'MyBookJava',350,'A');
+
+Mysql
+
+
+mysql>create table book(bookid  int(11),title  varchar(30),price float(7,2),grade varchar(5));
+mysql>insert into book values(100,”java”,750.00,”A”);
