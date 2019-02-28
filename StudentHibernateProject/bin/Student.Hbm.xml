@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.ram.Student" table="studentnew">
+	
+	<id name="sno" column="SNO" type="java.lang.Integer">
+	<generator class="assigned"></generator>   
+			     <!-- sequence for automatic -->			
+	</id>
+	
+	<property name="sname" column="SNAME" type="String"/>
+	<property name="email" column="EMAIL" type="String" length="100"></property>
+	<property name="mobile" column="MOBILE" type="long"/>
+	
+	</class>
+</hibernate-mapping>

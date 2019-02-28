@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration>
+<session-factory>
+	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OrcaleDriver</property>
+	<property name="hibernate.connection.password">training632</property>
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@10.219.34.3:1521/orcl</property>
+	<property name="hibernate.connection.username">trg632</property>
+	<property name="dialect">org.hibernate.dialect.OracleDialect</property>
+	
+	<property name="htm2ddl.auto">update</property>     <!-- Automatic creation of table -->
+	
+	<mapping resource="Student.hbm.xml"/>
+	
+</session-factory>
+</hibernate-configuration>
